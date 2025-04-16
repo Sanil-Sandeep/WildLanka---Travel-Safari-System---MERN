@@ -92,6 +92,7 @@ function CreateExpenses() {
     }
   };
 
+
   return (
     <div>
       <Header/>
@@ -156,6 +157,7 @@ function CreateExpenses() {
     </div>
   );
 }
+
 
 const styles = {
   container: {

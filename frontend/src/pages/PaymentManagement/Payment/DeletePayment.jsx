@@ -30,6 +30,7 @@ const DeletePayment = () => {
       });
   };
 
+
   return (
     <div>
       <Header />
@@ -58,6 +59,8 @@ const DeletePayment = () => {
     </div>
   );
 };
+
+//css
 
 const styles = {
   container: {
