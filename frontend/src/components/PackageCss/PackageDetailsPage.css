@@ -1,0 +1,154 @@
+/* Main container */
+.container {
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255); /* Light background color for a clean look */
+    min-height: 100vh;
+    min-width: 192vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Product details wrapper */
+.package-details-container {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 2rem; /* Increased spacing between items for a more open layout */
+    padding: 1rem;
+}
+
+/* Product image container */
+.package-Image-container {
+    flex: 1;
+    max-width: 500px; /* Limit max-width for larger screens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem; /* Larger rounded corners for a softer look */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+    background: linear-gradient(145deg, #ffffff, #f4f4f4); /* Gradient background for subtle texture */
+    overflow: hidden; /* Ensure image fits within the container */
+}
+
+/* Product image styling */
+.package-Image {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Cover the container */
+    border-radius: 1rem; /* Match rounded corners of the container */
+    transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
+}
+
+.package-Image:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Product info container */
+.package-info-container {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF; /* Clean white background */
+    border-radius: 1rem; /* Match rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Consistent shadow with image container */
+    border: 1px solid #E1E1E1; /* Light border for subtle separation */
+    transition: transform 0.3s ease-in-out; /* Smooth transform effect */
+}
+
+.package-info-container:hover {
+    transform: scale(1.02); /* Slight enlargement on hover */
+}
+
+/* Title styling */
+.title {
+    font-size: 2.75rem; /* Larger font size for prominence */
+    margin-bottom: 1rem;
+    color: #2C2C2C; /* Darker color for better readability */
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Description styling */
+.description {
+    margin-bottom: 1.5rem;
+    color: #555; /* Slightly lighter color for readability */
+    font-size: 1.125rem; /* Slightly larger font size */
+    line-height: 1.6; /* Increased line height for readability */
+}
+
+/* Price and buy button container */
+.price-buy-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+/* Price styling */
+.price {
+    font-size: 2.25rem; /* Larger font size for the price */
+    font-weight: 700; /* Bold for emphasis */
+    color: #28A745; /* Green color for the price */
+}
+
+/* Quantity container styling */
+.quantity-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-right: 1rem; /* Space between quantity and button */
+}
+
+/* Quantity label styling */
+.quantity-label {
+    margin-right: 0.5rem; /* Space between label and input */
+    font-size: 1rem; /* Font size for label */
+}
+
+/* Quantity input styling */
+.quantity-input {
+    width: 50px; /* Fixed width for the input */
+    padding: 0.5rem; /* Padding for better touch */
+    border: 1px solid #ccc; /* Basic border styling */
+    border-radius: 0.5rem; /* Rounded corners */
+    font-size: 1rem; /* Font size for input */
+}
+
+/* Buy button styling */
+.buy-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #007BFF; /* Bright blue background */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 1rem; /* Larger rounded corners */
+    font-size: 1.125rem; /* Slightly larger font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.buy-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .package-image-container,
+    .package-info-container {
+        width: 48%; /* Equal width for larger screens */
+    }
+}
+
+@media (max-width: 767px) {
+    .package-image-container,
+    .package-info-container {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
