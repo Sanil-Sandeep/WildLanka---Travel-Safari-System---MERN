@@ -1,0 +1,122 @@
+/* Overall container styling */
+.home-container {
+  padding: 2rem;
+  background-color: #FFFFFF; /* Updated background color to white */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header styling */
+.header-container h1 {
+  color: #4A1416;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Button container and general button styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.button {
+  padding: 0.75rem 2rem;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-table {
+  background-color: #4A1416;
+  color: white;
+}
+
+.button-card {
+  background-color: #FBBF24;
+  color: white;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+/* Search and buttons section */
+.search-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.search-container {
+  flex: 1;
+  position: relative; /* Needed for positioning the icon */
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem 2.5rem 0.75rem 3rem; /* Add padding to accommodate the icon */
+  border: 2px solid #1E90FF; /* Blue border color */
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.search-input::placeholder {
+  color: #888;
+}
+
+/* Add icon styling */
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 0.75rem;
+  transform: translateY(-50%);
+  color: #4A1416; /* Icon color */
+  font-size: 1.25rem; /* Adjust size as needed */
+}
+
+/* Report and add buttons */
+.report-button,
+.add-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  margin-left: 1rem;
+}
+
+.report-button {
+  background-color: #4A1416;
+  color: white;
+}
+
+.add-button {
+  background-color: #4A1416;
+  color: white;
+}
+
+.report-button:hover,
+.add-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Additional shadow and border styling for cards and buttons */
+button {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+}
