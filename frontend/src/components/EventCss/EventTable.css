@@ -1,0 +1,104 @@
+/* Ensure the table occupies the full width */
+.events-Table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  border: 2px solid black; /* Outer border */
+  table-layout: fixed; /* Ensures consistent column width */
+}
+
+/* Table header styling */
+.table-Header {
+  padding: 0.5rem;
+  background-color: #4A1416;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 2px solid black; /* Header bottom border */
+  letter-spacing: 0.05rem;
+}
+
+/* Table row styling */
+.table-Row {
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid black; /* Border between rows */
+}
+
+/* Remove hover effect from table rows */
+.table-Row:hover {
+  background-color: transparent;
+}
+
+/* Alternating row colors */
+.table-Row:nth-child(even) {
+  background-color: #f9f4ee;
+}
+
+/* Table data cell styling */
+.table-Data {
+  padding: 0.5rem;
+  text-align: center; /* Center-aligns content, including images */
+  vertical-align: middle;
+  font-size: 1rem;
+  color: #4A1416;
+  border: 1px solid black; /* Border around each cell */
+}
+
+/* Set fixed widths for specific columns */
+.description-column {
+  width: 25%;
+}
+
+.operations-column {
+  width: 15%; /* Adjusted width based on content */
+}
+
+/* Ensure action buttons fit within the table cell */
+.table-Data .actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.2rem; /* Reduced gap for smaller spacing between buttons */
+  padding: 0.25rem 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Product image styling */
+.Eventt-Image {
+  width: 200px; /* Increased size for a larger image */
+  height: 100px; /* Maintains a square aspect ratio */
+  object-fit: cover;
+  border: none; /* Removes any border */
+  margin: 0; /* Removes any automatic margin */
+  display: block;
+}
+
+/* Button styling */
+.View-button,
+.Edit-button,
+.Delete-button {
+  flex-grow: 1;
+  padding: 0.75rem 1rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border: 1.5px solid white;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #330D0F;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  text-align: center;
+}
+
+/* Hover effects for buttons */
+.View-button:hover,
+.Edit-button:hover,
+.Delete-button:hover {
+  background-color: #FBBF24;
+  color: #330D0F;
+}
