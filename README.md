@@ -1,9 +1,8 @@
-# CraftMart-MERN
+# WildLanka
 
 <br>
 
-CraftMart is a handcrafted goods website built using the MERN stack, offering a seamless and user-friendly platform for unique handmade products. It features robust functionalities, including a real-time chat app for instant communication, efficient product management, secure payment handling, gift and voucher management, streamlined delivery tracking, event management, feedback collection, and hassle-free return and refund services. CraftMart ensures a comprehensive experience for both customers and managers, blending creativity with advanced technology.
-
+WildLanka Travel Safari System is an adventurous travel platform built using the MERN stack, offering a seamless and user-friendly platform for booking unique safari experiences in Sri Lanka. It features robust functionalities, including a real-time chat app for instant communication with guides, efficient tour management, secure payment handling, special offers and discount management, streamlined booking tracking, event management, feedback collection, and hassle-free booking modifications or cancellations. WildLanka ensures a comprehensive experience for both travelers and tour managers, blending the thrill of exploration with advanced technology.
 <br><br>
 
 ## Problem
