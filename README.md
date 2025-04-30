@@ -28,9 +28,6 @@ WildLanka Travel Safari System is an adventurous travel platform built using the
 
 <br>
 
-### Efficient Gift Voucher Management for CraftMart Marketplace
-
-- CraftMart's voucher system simplifies the process for sellers to create and distribute vouchers to customers, allowing quick redemption and validation of vouchers. The system supports various payment methods, enables real-time tracking of voucher usage, and integrates with financial systems for efficient transactions. This system aids in business decisions and streamlines the voucher process.
 
 <br>
 
