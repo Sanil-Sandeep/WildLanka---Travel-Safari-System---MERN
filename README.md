@@ -16,11 +16,6 @@ WildLanka Travel Safari System is an adventurous travel platform built using the
 
 <br>
 
-### Centralized Payment Management System
-
-- The payment management function provides a user-friendly interface for customers to easily submit payments, manage their payment details, and download e-receipts. It features a secure payment processing system that ensures customer data protection. Payment managers can track income in real-time, generate reports, and manage payment information efficiently. Additionally, an integrated feedback mechanism allows customers to rate their payment experience, contributing to continuous service improvement. With a cloud-based database for real-time updates, the system eliminates the need for manual record-keeping, ensuring accurate financial management and streamlined operations for all stakeholders.
-
-<br>
 
 ### 🎒 2. Package Management
 
